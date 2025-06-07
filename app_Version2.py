@@ -13,8 +13,8 @@ st.set_page_config(layout="wide")
 st.title("🌸 Iris Explainable AI App")
 
 # --- Paths ---
-MODEL_PATH = os.path.join("models", "xai_iris_model.joblib")
-SCALER_PATH = os.path.join("models", "iris_scaler.joblib")  # Remove if you don't use a scaler
+MODEL_PATH = os.path.join("xai_iris_model.joblib")
+SCALER_PATH = os.path.join("iris_scaler.joblib")  # Remove if you don't use a scaler
 
 # --- Load Model and Scaler ---
 @st.cache_data
